@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Carro</title>
+    <link rel="stylesheet" href="/styles/car/editarcar.css">
+    <script src="/scripts/car/editarcar.js" defer></script>
+</head>
+<body>
+    <h1>Editar Carro</h1>
+    <!-- Formulário para editar informações do carro -->
+    <form id="editar-carro-form">
+        <input type="hidden" id="carroId">
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo"><br><br>
+        
+        <label for="fabricante">Fabricante:</label>
+        <input type="text" id="fabricante" name="fabricante"><br><br>
+
+        <label for="anofabricacao">Ano de Fabricação:</label>
+        <input type="date" id="anofabricacao" name="anofabricacao"><br><br>
+
+        <button type="button" onclick="cadastrarOuAtualizarCarro()">Salvar Alterações</button>
+    </form>
+</body>
+</html>

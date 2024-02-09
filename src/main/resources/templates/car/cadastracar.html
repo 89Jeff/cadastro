@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Carro</title>
+    <link rel="stylesheet" href="/styles/car/cadastrocar.css">
+    <script src="/scripts/car/cadastrocar.js" defer></script>
+</head>
+<body>
+    <h1>Cadastro de Carro</h1>
+    <form id="carForm">
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" name="modelo" required><br>
+        <label for="fabricante">Fabricante:</label>
+        <input type="text" id="fabricante" name="fabricante" required><br>
+        <label for="anoFabricacao">Ano de Fabricação:</label>
+        <input type="date" id="anofabricacao" name="anofabricacao" required><br>
+        <button type="button" onclick="salvarCarro()">Salvar</button>
+    </form>
+</body>
+</html>
