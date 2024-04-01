@@ -10,7 +10,7 @@ if (cadastroSucesso) {
     // Redireciona para a página de login após 3 segundos
     setTimeout(function() {
         window.location.href = '/';
-    }, 3000);
+    }, 1000);
 }
 
 // Função para validar o email

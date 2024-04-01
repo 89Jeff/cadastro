@@ -15,7 +15,7 @@ async function carregarCarros() {
                 <td>${carro.anofabricacao}</td> <!-- Exibe a data formatada -->
                 <td>
                     <button onclick="excluirCarro(${carro.id})">Excluir</button>
-                    <button onclick="editarCarro(${carro.id})">Atualizar</button>
+                    <button onclick="editarCarro(${carro.id})">Editar</button>
                 </td>
             `;
             tbody.appendChild(tr);
